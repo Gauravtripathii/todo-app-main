@@ -1,0 +1,21 @@
+:root {
+  --main-bg: #1A1A40;
+  --input-bg: #2e2e5c;
+  --input-color: #fff;
+  --header-bg: url(../media/bg-desktop-dark.jpg);
+  --toggle-icon: url(../media/icon-sun.svg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--main-bg);
+  font-family: 'Rowdies', cursive;
+}
