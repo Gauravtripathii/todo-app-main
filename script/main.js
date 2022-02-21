@@ -1,5 +1,5 @@
 var t = "gaurav";
 
-var todos = {};
+var todos = {t: false};
 
-console.log(todos);
+console.log(Object.keys(todos).length);

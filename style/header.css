@@ -33,7 +33,7 @@ header span.theme-toggle {
 header > div > input {
   height: 50px;
   width: 100%;
-  padding-left: 50px;
+  padding-left: 30px;
   background: var(--input-bg);
   color: var(--input-color);
   border: none;
