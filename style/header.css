@@ -16,7 +16,7 @@ header div {
   align-items: center;
 }
 
-header > div >  h1 {
+header > div > h1 {
   color: white;
   text-transform: uppercase;
   font-size: 80px;
@@ -39,4 +39,25 @@ header > div > input {
   background: var(--input-bg);
   color: var(--input-color);
   border: none;
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    height: 40%;
+  }
+
+  header div {
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  header > div > h1 {
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+
+  header > div > input {
+    height: 50px;
+    font-size: 20px;
+  }
 }

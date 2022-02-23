@@ -59,3 +59,27 @@
 .input-card > ul > li > .cross {
   cursor: pointer;
 }
+
+@media only screen and (min-width: 900px) {
+  .input-card {
+    width: 55%;
+    margin-left: 22.5%;
+  }
+
+  .input-card > .result-filter {
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -58vh;
+  }
+
+  .input-card > .result-filter > span {
+    font-size: 20px;
+  }
+
+  .input-card > ul > li {
+    height: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+  }
+}
