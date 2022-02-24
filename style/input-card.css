@@ -78,11 +78,6 @@
     font-size: 20px;
   }
 
-  .input-card > ul {
-    height: 50vh;
-    overflow: scroll;
-  }
-
   .input-card > ul > li {
     height: 50px;
     font-size: 20px;
